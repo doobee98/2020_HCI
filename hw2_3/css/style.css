@@ -1,0 +1,16 @@
+
+#window-wrapper {
+    align-items: center;
+}
+
+#json-area {
+    flex-grow: 1;
+    min-width: 400px;
+    width: 100%;
+    height: 1200px;
+}
+
+#json-area > #json {
+    width: 100%;
+    height: 100%;
+}

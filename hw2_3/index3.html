@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="src/js/main.js"></script>
+    <title>HCI HW2-3</title>
+</head>
+<body>
+    <div class="flexbox-row window-wrapper full-width">
+        <div>
+            <h1>HCI HW2-3 2016320175 이두섭</h1>
+            <button id="refreshBtn">새로고침</button>&nbsp;
+            <button id="printBtn">트리 콘솔출력</button>
+
+            <br><br>
+            <canvas id="canvas" width="1000" height="1200"></canvas>
+    
+            <img src="../hw2_1/img/example.png">
+        </div>
+        <div style="width: 50px;"></div>
+        <div id="json-area">
+            <h1>JSON 입력/출력</h1>
+            <button id="toJsonBtn">JSON으로 내보내기</button>&nbsp;
+            <button id="fromJsonBtn">JSON에서 불러오기</button>
+            <br><br>
+            <textarea id="json"></textarea>
+        </div>
+    </div>
+
+
+    <!-- <script type="text/javascript" src="src/onefile.js"></script> -->
+</body>
+</html>

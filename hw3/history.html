@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/histogram-bellcurve.js"></script>
+    <script type="module" src="src/js/history.js"></script>
+    <title>WebEx History</title>
+</head>
+<body id="window-wrapper">
+    <div id="history" class="content flexbox-column full-width">
+        <header class="flexbox-row full-width">
+            <div class="title">History</div>
+            <a class="back" href="index.html">↩</a>
+        </header>
+        
+        <main class="flexbox-column full-width">
+            <div class="highcharts-container full-width">
+                <div id="highcharts-today" class="highcharts on"></div>
+                <div id="highcharts-week" class="highcharts"></div>
+            </div>
+            <nav id="graph-selector" class="flexbox-row full-width">
+                <ul id="button-today" class="on">오늘</ul>
+                <ul id="button-week">지난 7일</ul>
+            </nav>
+        </main>
+    </div>
+
+
+    <!-- <script type="text/javascript" src="src/onefile/onefile_history.js"></script> -->
+</body>
+</html>

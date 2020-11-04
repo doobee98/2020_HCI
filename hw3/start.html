@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="src/js/start.js"></script>
+    <title>WebEx Start</title>
+</head>
+<body id="window-wrapper">
+    <div id="start" class="content flexbox-column full-width">
+        <header class="flexbox-row full-width">
+            <div class="title">Start Exercise</div>
+            <a class="back" href="index.html">↩</a>
+        </header>
+        
+        <main class="full-width">
+            <div id="exercise-queue" class="flexbox-row full-width">
+                <div class="size"></div>
+                <div class="queue flexbox-row"></div>
+            </div>
+            <div id="exercise-main" class="flexbox-column full-width">
+                <div class="item flexbox-column ready">
+                    <div class="img-wrapper">
+                        <img>
+                        <div class="text">▶</div>
+                    </div>
+                    <h6></h6>
+                    <div class="skip">skip</div>
+                </div>
+                <div class="counter"><inline></inline>&nbsp;/&nbsp;<inline></inline></div>
+            </div>
+        </main>
+    </div>
+
+
+    <!-- <script type="text/javascript" src="src/onefile/onefile_start.js"></script> -->
+</body>
+</html>

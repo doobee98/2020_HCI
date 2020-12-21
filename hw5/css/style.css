@@ -1,0 +1,113 @@
+
+
+/* Global CSS  */
+#window-wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: lightblue;
+}
+
+#main {
+    width: 1024px;
+    height: 768px;
+    border: 3px solid red;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#levelbar {
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+
+#levelbar .level {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#levelbar .level-wrapper.highlight {
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+#levelbar .level-wrapper {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#level1 {
+    width: 2px;
+    height: 2px;
+}
+
+#level2 {
+    width: 4px;
+    height: 4px;
+}
+
+#level3 {
+    width: 6px;
+    height: 6px;
+}
+
+#level4 {
+    width: 8px;
+    height: 8px;
+}
+
+#brush-color {
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    border-radius: 25%;
+    margin: 10px;
+}
+
+#palette {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+#palette .paint {
+    width: 50%;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+#palette .paint .color {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+}
+
+canvas {
+    border: 1px solid black;
+}

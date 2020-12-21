@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+html,
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.flexbox-row,
+.flexbox-column  {
+    display: flex;
+}
+
+.flexbox-column {
+    flex-direction: column;
+}
